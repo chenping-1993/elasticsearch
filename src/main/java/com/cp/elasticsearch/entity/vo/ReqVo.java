@@ -10,7 +10,9 @@ import lombok.Data;
 @Data
 public class ReqVo {
 
+    //查询类型 es mysql
     private String type;
 
+    //查询关键字
     private String keyword;
 }

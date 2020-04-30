@@ -11,8 +11,8 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 import java.util.Date;
 
 /**
- * @Description: useserverconfiguration 使用线上es配置
- * createindex 是否再启动时候创建es索引（默认使用es配置好的索引）
+ * @Description: useServerConfiguration 使用线上es配置
+ * createIndex 是否在启动时候创建es索引（默认使用es配置好的索引）
  * @Author: chenping
  * @Date: 2020-04-29
  */

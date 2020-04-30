@@ -42,7 +42,7 @@ public class IndexController {
     }
 
     /** 
-     * @Description:  es测试
+     * @Description:  es查询测试
      * @param:  
      * @return: com.cp.elasticsearch.entity.es.EsTBlog 
      * @Author: chenping
