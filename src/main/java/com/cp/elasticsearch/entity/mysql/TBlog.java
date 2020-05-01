@@ -25,9 +25,11 @@ public class TBlog {
     @Column(columnDefinition = "mediumtext")
     private String content;
 
+    @Column(name = "create_time")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
 //
+    @Column(name = "create_time")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date updateTime;
 
